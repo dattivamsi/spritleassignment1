@@ -1,0 +1,231 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+    background-color: #806262;
+  }
+  .game-heading {
+    color: rgb(160, 212, 190);
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Roboto';
+  }
+  .master-student-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: lightslategray;
+    border-radius: 30px;
+  }
+  .master-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97%;
+    width: 48%;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 50px;
+  }
+  .student-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 97%;
+    width: 48%;
+    padding: 10px;
+    /* padding-left: 50px; */
+  }
+  .master-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 0px black;
+    border-radius: 40px;
+    padding: 25px;
+    /* border: 2px solid red; */
+    margin-right: 100px;
+  }
+  .label {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    cursor: pointer;
+  }
+  .master-name-input {
+    height: 40px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    cursor: pointer;
+    /* text-align: center; */
+  }
+  .button {
+    height: 35px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    margin-left: 200px;
+    border: 0px;
+    cursor: pointer;
+  }
+  .master-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Roboto';
+  }
+  .error {
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto';
+  }
+  .master-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid green; */
+    height: 97%;
+    width: 99%;
+    background-color: gray;
+    margin-left: 0px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 16px 0px white;
+    padding: 10px;
+  }
+  .master-heading-span {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+  }
+  .master-login-heading {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    /* background-color: white; */
+    height: 48px;
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+    padding: 2px;
+    width: 90%;
+  }
+  .master-login-desc {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto';
+  }
+  .student-after-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid green; */
+    height: 95%;
+    width: 99%;
+    background-color: gray;
+    border-radius: 40px;
+    box-shadow: 0px 4px 16px 0px white;
+    padding: 10px;
+  }
+  .student-after-login-heading {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto';
+  }
+  .master-question-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 140px;
+    width: 105%;
+    background-color: white;
+    border-radius: 25px;
+    border: 0px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .button-two {
+    height: 35px;
+    width: 320px;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    margin-left: 100px;
+    border: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .answers-un-order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 90%;
+    /* background-color: white; */
+    /* border: 2px solid black; */
+  }
+  .log-out-button {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    margin-left: 260px;
+    margin-top: 250px;
+    border: 0px;
+    cursor: pointer;
+  }
+  .log-out-button-two {
+    height: 25px;
+    width: 70px;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    margin-left: 550px;
+    margin-top: 14px;
+    border: 0px;
+    cursor: pointer;
+  }
